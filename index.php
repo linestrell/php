@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id="content">
-            <h1><?= $heading ?></h1>
+            <h1><?= $heading ?> <?= $year ?> </h1>
 
                 <ul id="menu">
                     <li><a href="#">home</a></li>
@@ -72,7 +72,7 @@
             </div>
 
             <div id="footer">
-                <p>Copyright &copy; <?= $year ?> <em>minimalistica</em> &middot; Design: Luka Cvrk, <a
+                <p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a
                             href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
             </div>
         </div>
