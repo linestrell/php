@@ -1,7 +1,7 @@
 <?php
     $title = 'minimalistica';
     $heading = 'minimalistica';
-    $year = date("Y");
+    $year = date("Y"); //задание 5
 ?>
 
 
