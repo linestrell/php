@@ -39,16 +39,16 @@ $operation – строка с названием операции. В зави�
 function mathOperation($arg1, $arg2, $operation)
 {
     switch ($operation) {
-        case 'add':
+        case '+':
             return addition($arg1, $arg2);
             break;
-        case 'sub':
+        case '-':
             return subtraction($arg1, $arg2);
             break;
-        case 'multi':
+        case '*':
             return multiplication($arg1, $arg2);
             break;
-        case 'del':
+        case '/':
             return division($arg1, $arg2);
             break;
         default:
@@ -56,7 +56,7 @@ function mathOperation($arg1, $arg2, $operation)
     }
 }
 
-echo mathOperation(12, 3,multi);
+echo mathOperation(12, 3,'/');
 
 
 ?>
