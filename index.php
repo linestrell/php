@@ -73,6 +73,7 @@
             </div>
 
             <div id="footer">
+                <!--задание 5.-->
                 <p>Copyright &copy; <?= $year ?> <em>minimalistica</em> &middot; Design: Luka Cvrk, <a
                             href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
             </div>
