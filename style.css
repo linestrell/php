@@ -1,0 +1,12 @@
+.thumbnail {
+    display: inline-block;
+    background-color: #d3d3d3;
+    margin: 4px;
+    padding: 5px;
+}
+.thumbnail p {
+    margin: 0px;
+}
+figure.img img{
+    max-width: 82%;
+}

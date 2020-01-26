@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>php2.3 - {{ img.name }}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="index.php">Назад</a>
+<figure class="img">
+    <p><img src="{{ img.path }}{{ img.name }}" alt="" /></p>
+    <figcaption>
+        Name: {{ img.name }}<br>
+        Views: {{ img.views }}
+    </figcaption>
+</figure>
+</body>
+</html>

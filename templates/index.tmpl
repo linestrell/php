@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>php2.3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    {% for thumbnail in thumbnails %}
+        <div class="thumbnail"><a href="show.php?img={{ thumbnail.id }}" target="_blank"><img src="img/thumbnail/tn_{{ thumbnail.name }}"></a><p>Views: {{ thumbnail.views }}</p></div>
+    {% endfor %}
+</div>
+<div>{{ message }}</div>
+<form enctype="multipart/form-data" action="" method="POST">
+    <div>
+        <label for="file">Choose image to upload</label>
+        <input name="img" id="file" type="file">
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+</body>
+</html>
